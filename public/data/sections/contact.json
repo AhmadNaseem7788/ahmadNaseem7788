@@ -73,9 +73,9 @@
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "ahmadnaseem1177@gmail.com",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "mailto:ahmadnaseem1177@gmail.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -83,15 +83,14 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "E-mail"},
-                        "ko": {"title": "이메일"}
+                        "en": {"title": "G-mail"}
                     }
                 },
 
                 {
                     "value": "@ahmadnaseem",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://www.linkedin.com/in/ahmad-naseem1177"}
                     ],
                     "icon": {
                         "img": null,
@@ -106,7 +105,7 @@
                 {
                     "value": "Ahmad Naseem",
                     "links": [
-                        {"href": "https://facebook.com"}
+                        {"href": "https://facebook.com/ahmad.hamii.73"}
                     ],
                     "icon": {
                         "img": null,
@@ -121,7 +120,7 @@
                 {
                     "value": "@ahmadnaseem",
                     "links": [
-                        {"href": "https://instagram.com"}
+                        {"href": "https://instagram.com/_ham_knight/"}
                     ],
                     "icon": {
                         "img": null,
@@ -136,7 +135,7 @@
                 {
                     "value": "@ahmadnaseem",
                     "links": [
-                        {"href": "https://tiktok.com"}
+                        {"href": "https://www.tiktok.com/@ham_knight_"}
                     ],
                     "icon": {
                         "img": null,

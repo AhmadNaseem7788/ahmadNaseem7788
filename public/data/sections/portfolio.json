@@ -1,479 +1,369 @@
 {
-    "locales": {
-        "en": {
-            "title": "Portfolio",
-            "title_long_prefix": "Take a look at",
-            "title_long": "My **Portfolio**"
-        },
-
-        "es": {
-            "title": "Portafolio",
-            "title_long_prefix": "Explora",
-            "title_long": "Mi **Portafolio**"
-        },
-
-        "fr": {
-            "title": "Portfolio",
-            "title_long_prefix": "Découvrez",
-            "title_long": "Mon **Portfolio**"
-        },
-
-        "ko": {
-            "title": "포트폴리오",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**포트폴리오**입니다"
-        }
+  "locales": {
+    "en": {
+      "title": "Portfolio",
+      "title_long_prefix": "Take a look at",
+      "title_long": "My **Portfolio**"
     },
 
-    "articles": [
+    "es": {
+      "title": "Portafolio",
+      "title_long_prefix": "Explora",
+      "title_long": "Mi **Portafolio**"
+    },
+
+    "fr": {
+      "title": "Portfolio",
+      "title_long_prefix": "Découvrez",
+      "title_long": "Mon **Portfolio**"
+    },
+
+    "ko": {
+      "title": "포트폴리오",
+      "title_long_prefix": "이것은 내",
+      "title_long": "**포트폴리오**입니다"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "portfolio",
+      "component": "ArticlePortfolio",
+      "config": {},
+      "locales": {},
+
+      "categories": [
         {
-            "id": "portfolio",
-            "component": "ArticlePortfolio",
-            "config": {},
-            "locales": {},
-
-            "categories": [
-                {
-                    "id": "apps",
-                    "locales": {
-                        "en": {"singular": "App", "plural": "Apps"},
-                        "es": {"singular": "App", "plural": "Apps"},
-                        "fr": {"singular": "App", "plural": "Apps"},
-                        "ko": {"singular": "앱", "plural": "앱들"}
-                    }
-                },
-                {
-                    "id": "websites",
-                    "locales": {
-                        "en": {"singular": "Website", "plural": "Web"},
-                        "es": {"singular": "Sitio web", "plural": "Web"},
-                        "fr": {"singular": "Site web", "plural": "Web"},
-                        "ko": {"singular": "웹사이트", "plural": "웹"}
-                    }
-                },
-                {
-                    "id": "utilities",
-                    "locales": {
-                        "en": {"singular": "Utility", "plural": "Utilities"},
-                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
-                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
-                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
-                    }
-                }
-            ],
-
-            "items": [
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-3.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "es": {
-                            "title": "BrainPulse",
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "fr": {
-                            "title": "BrainPulse",
-                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "ko": {
-                            "title": "BrainPulse",
-                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
-                            "tags": ["API", "REST", "Backend"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-7.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI",
-                        "screenshots": {
-                            "aspectRatio": "9:16",
-                            "images": [
-                                "images/pictures/project-screenshot-1.webp",
-                                "images/pictures/project-screenshot-2.webp",
-                                "images/pictures/project-screenshot-3.webp",
-                                "images/pictures/project-screenshot-4.webp",
-                                "images/pictures/project-screenshot-5.webp"
-                            ]
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "es": {
-                            "title": "MailM8",
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
-                        },
-                        "fr": {
-                            "title": "MailM8",
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "ko": {
-                            "title": "MailM8",
-                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
-                            "tags": ["Flutter", "이메일", "소통"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-6.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": "16:9",
-                            "images": [
-                                "images/pictures/project-screenshot-6.png",
-                                "images/pictures/project-screenshot-7.png",
-                                "images/pictures/project-screenshot-8.png"
-                            ]
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Stackers",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "title": "Stackers",
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "title": "Stackers",
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "title": "Stackers",
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/project-logo-1.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
-                        },
-                        "es": {
-                            "title": "SmartCash",
-                            "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
-                            "tags": ["Next.js", "Finanzas", "Dinero"]
-                        },
-                        "fr": {
-                            "title": "SmartCash",
-                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
-                            "tags": ["Next.js", "Finance", "Argent"]
-                        },
-                        "ko": {
-                            "title": "SmartCash",
-                            "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
-                            "tags": ["Next.js", "금융", "돈"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-2.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
-                        },
-                        "es": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
-                        },
-                        "fr": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
-                        },
-                        "ko": {
-                            "title": "Snappy",
-                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
-                            "tags": ["Swift", "사진", "카메라"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/project-logo-5.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://sweetscoops.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
-                        },
-                        "es": {
-                            "title": "Sweet Scoops",
-                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
-                            "tags": ["WooCommerce", "Comida", "Postres"]
-                        },
-                        "fr": {
-                            "title": "Sweet Scoops",
-                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
-                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
-                        },
-                        "ko": {
-                            "title": "Sweet Scoops",
-                            "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
-                            "tags": ["WooCommerce", "음식", "디저트"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
-                        },
-                        "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
-                        },
-                        "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
-                        },
-                        "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-4.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        },
-                        "es": {
-                            "title": "Soccer Analytics",
-                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
-                            "tags": ["IA", "Predicción", "Fútbol"]
-                        },
-                        "fr": {
-                            "title": "Soccer Analytics",
-                            "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
-                            "tags": ["IA", "Prédiction", "Football"]
-                        },
-                        "ko": {
-                            "title": "Soccer Analytics",
-                            "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
-                            "tags": ["AI", "예측", "축구"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-truck-fast",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"},
-                        {"faIcon": "fa-brands fa-windows", "href": "https://windows.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
-                        }
-                    }
-                }
-            ]
+          "id": "apps",
+          "locales": {
+            "en": { "singular": "Web App", "plural": "Web Apps" },
+            "es": { "singular": "Web App", "plural": "Web Apps" },
+            "fr": { "singular": "Web App", "plural": "Web Apps" },
+            "ko": { "singular": "웹 앱", "plural": "웹 앱들" }
+          }
+        },
+        {
+          "id": "websites",
+          "locales": {
+            "en": { "singular": "Website", "plural": "Web" },
+            "es": { "singular": "Sitio web", "plural": "Web" },
+            "fr": { "singular": "Site web", "plural": "Web" },
+            "ko": { "singular": "웹사이트", "plural": "웹" }
+          }
         }
-    ]
+      ],
+
+      "items": [
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/isc-logo.svg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://islamicsavingscenter.com/"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "1:1",
+              "images": [
+                "images/pictures/isc-project-pic (1).png",
+                "images/pictures/isc-project-pic (2).png",
+                "images/pictures/isc-project-pic (3).png"
+              ]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "ISC",
+              "text": "Engineered the backend using Node.js, Express.js, PostgreSQL, and Drizzle ORM, optimizing SQL queries and applying advanced caching techniques to cut response times by 50%. Simultaneously enhanced the Next.js frontend, achieving a Lighthouse score of 92+ and reducing page load times by 50%, which led to a 5x increase in organic traffic.",
+              "tags": [
+                "PostgreSQL",
+                "Express.js",
+                "Node.js",
+                "Drizzle ORM",
+                "Next.js"
+              ]
+            },
+            "es": {
+              "title": "ISC",
+              "text": "Desarrollé el backend utilizando Node.js, Express.js, PostgreSQL y Drizzle ORM, optimizando las consultas SQL y aplicando técnicas avanzadas de almacenamiento en caché para reducir los tiempos de respuesta en un 50%. Al mismo tiempo, mejoré el frontend con Next.js, logrando una puntuación de Lighthouse de más de 92 y reduciendo los tiempos de carga en un 50%, lo que resultó en un aumento de 5x en el tráfico orgánico.",
+              "tags": [
+                "PostgreSQL",
+                "Express.js",
+                "Node.js",
+                "Drizzle ORM",
+                "Next.js"
+              ]
+            },
+            "fr": {
+              "title": "ISC",
+              "text": "Développement du backend avec Node.js, Express.js, PostgreSQL et Drizzle ORM, optimisation des requêtes SQL et mise en œuvre de techniques de cache avancées, réduisant les temps de réponse de 50 %. Amélioration simultanée du frontend Next.js, obtenant un score Lighthouse de plus de 92 et réduisant les temps de chargement de 50 %, ce qui a entraîné une augmentation de 5 fois du trafic organique.",
+              "tags": [
+                "PostgreSQL",
+                "Express.js",
+                "Node.js",
+                "Drizzle ORM",
+                "Next.js"
+              ]
+            },
+            "ko": {
+              "title": "ISC",
+              "text": "Node.js, Express.js, PostgreSQL, Drizzle ORM을 사용하여 백엔드를 구축하고, SQL 쿼리를 최적화하며 고급 캐싱 기법을 적용하여 응답 시간을 50% 단축했습니다. 동시에 Next.js 프론트엔드를 개선하여 Lighthouse 점수 92+를 달성하고 페이지 로드 시간을 50% 줄여 유기적 트래픽이 5배 증가했습니다.",
+              "tags": [
+                "PostgreSQL",
+                "Express.js",
+                "Node.js",
+                "Drizzle ORM",
+                "Next.js"
+              ]
+            }
+          }
+        },
+
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/gk-logo.svg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://www.gkfe.vercel.app/"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "1:1",
+              "images": ["images/pictures/gk-project-pic.png"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Grace Kapital",
+              "text": "Developed a comprehensive loan management application using the MERN stack, featuring secure Paystack integration, real-time notifications via Socket.io, and automated tasks with node-cron. Implemented Google OAuth 2.0 and two-factor authentication using Passport and Speakeasy to enhance security and streamline onboarding, resulting in a 50% reduction in overdue payments.",
+              "tags": ["MERN", "Loan", "Authentication", "Real-time"]
+            },
+            "es": {
+              "title": "Grace Kapital",
+              "text": "Desarrollé una aplicación integral de gestión de préstamos con el stack MERN, integrando Paystack para transacciones seguras, notificaciones en tiempo real mediante Socket.io y tareas automatizadas con node-cron. Implementé Google OAuth 2.0 y autenticación de dos factores con Passport y Speakeasy para mejorar la seguridad y facilitar el acceso, lo que redujo los pagos atrasados en un 50%.",
+              "tags": ["MERN", "Préstamos", "Autenticación", "Tiempo real"]
+            },
+            "fr": {
+              "title": "Grace Kapital",
+              "text": "Développement d'une application complète de gestion de prêts avec le stack MERN, intégrant Paystack pour des transactions sécurisées, des notifications en temps réel via Socket.io, et des tâches automatisées avec node-cron. Intégration de Google OAuth 2.0 et de l'authentification à deux facteurs avec Passport et Speakeasy pour renforcer la sécurité et simplifier l'accès, réduisant de 50 % les retards de paiement.",
+              "tags": ["MERN", "Prêt", "Authentification", "Temps réel"]
+            },
+            "ko": {
+              "title": "Grace Kapital",
+              "text": "MERN 스택을 사용하여 포괄적인 대출 관리 애플리케이션을 개발했으며, Paystack을 통한 보안 거래, Socket.io를 통한 실시간 알림, node-cron을 활용한 작업 자동화를 구현했습니다. Google OAuth 2.0과 Passport 및 Speakeasy를 활용한 2단계 인증을 통해 보안을 강화하고 온보딩을 간소화하여 연체율을 50% 감소시켰습니다.",
+              "tags": ["MERN", "대출", "인증", "실시간"]
+            }
+          }
+        },
+
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/tcom-logo.jpg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://www.tensaicommerce.com/"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "1:1",
+              "images": [
+                "images/pictures/tensai-comeerce (1).png",
+                "images/pictures/tensai-comeerce (2).png",
+                "images/pictures/tensai-comeerce (3).png"
+              ]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Tensai Commerce",
+              "text": "At TensaiCommerce (tensaicommerce.com), I built a robust backend using Node.js, Express.js, Drizzle ORM, and PostgreSQL, developing automated scripts for database migrations and environment-specific deployments across development, staging, and production. On the frontend, I engineered a responsive Next.js interface with TailwindCSS, integrated Redux Toolkit for efficient state management, and utilized environment-switching scripts to streamline workflows. To ensure performance and security, I implemented JWT-based authentication, secure password handling with bcryptjs, and optimized API routing, delivering a fast, secure, and scalable e-commerce platform.",
+              "tags": [
+                "Node.js",
+                "Express.js",
+                "Drizzle ORM",
+                "PostgreSQL",
+                "Next.js",
+                "TailwindCSS",
+                "Redux Toolkit",
+                "JWT",
+                "bcryptjs"
+              ]
+            },
+            "es": {
+              "title": "Tensai Commerce",
+              "text": "En TensaiCommerce (tensaicommerce.com), construí un backend sólido utilizando Node.js, Express.js, Drizzle ORM y PostgreSQL, desarrollando scripts automatizados para migraciones de bases de datos y despliegues específicos para entornos de desarrollo, staging y producción. En el frontend, diseñé una interfaz responsiva con Next.js y TailwindCSS, integré Redux Toolkit para una gestión eficiente del estado y utilicé scripts para cambiar de entorno y optimizar flujos de trabajo. Para asegurar el rendimiento y la seguridad, implementé autenticación basada en JWT, manejo seguro de contraseñas con bcryptjs y optimicé el enrutamiento de API, ofreciendo una plataforma de comercio electrónico rápida, segura y escalable.",
+              "tags": [
+                "Node.js",
+                "Express.js",
+                "Drizzle ORM",
+                "PostgreSQL",
+                "Next.js",
+                "TailwindCSS",
+                "Redux Toolkit",
+                "JWT",
+                "bcryptjs"
+              ]
+            },
+            "fr": {
+              "title": "Tensai Commerce",
+              "text": "Chez TensaiCommerce (tensaicommerce.com), j'ai développé un backend robuste utilisant Node.js, Express.js, Drizzle ORM et PostgreSQL, créant des scripts automatisés pour les migrations de bases de données et les déploiements spécifiques aux environnements de développement, staging et production. Sur le frontend, j'ai conçu une interface responsive avec Next.js et TailwindCSS, intégré Redux Toolkit pour une gestion efficace de l'état, et utilisé des scripts de changement d'environnement pour fluidifier les workflows. Pour assurer performance et sécurité, j'ai mis en place une authentification basée sur JWT, une gestion sécurisée des mots de passe avec bcryptjs et optimisé le routage API, offrant une plateforme e-commerce rapide, sécurisée et évolutive.",
+              "tags": [
+                "Node.js",
+                "Express.js",
+                "Drizzle ORM",
+                "PostgreSQL",
+                "Next.js",
+                "TailwindCSS",
+                "Redux Toolkit",
+                "JWT",
+                "bcryptjs"
+              ]
+            },
+            "ko": {
+              "title": "Tensai Commerce",
+              "text": "TensaiCommerce (tensaicommerce.com)에서 Node.js, Express.js, Drizzle ORM, PostgreSQL을 사용하여 견고한 백엔드를 구축하고, 개발, 스테이징, 프로덕션 환경별 데이터베이스 마이그레이션 및 배포 자동화 스크립트를 개발했습니다. 프론트엔드에서는 Next.js와 TailwindCSS로 반응형 인터페이스를 설계하고 Redux Toolkit으로 효율적인 상태 관리를 통합했으며, 환경 전환 스크립트를 활용해 워크플로우를 최적화했습니다. 성능과 보안을 위해 JWT 기반 인증, bcryptjs를 이용한 안전한 비밀번호 처리 및 API 라우팅 최적화를 구현하여 빠르고 안전하며 확장 가능한 전자상거래 플랫폼을 제공했습니다.",
+              "tags": [
+                "Node.js",
+                "Express.js",
+                "Drizzle ORM",
+                "PostgreSQL",
+                "Next.js",
+                "TailwindCSS",
+                "Redux Toolkit",
+                "JWT",
+                "bcryptjs"
+              ]
+            }
+          }
+        },
+
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/mantaray-logo.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://www.mantaray.digital/"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "1:1",
+              "images": ["images/pictures/mantaray.png"]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Mantaray",
+              "text": "Built a dynamic Next.js website with GSAP animations, enhancing visual appeal and user interaction. Improved performance through SSR and code-splitting, increasing page load speeds by 25%.",
+              "tags": ["Next.js", "GSAP", "SSR", "Performance"]
+            },
+            "es": {
+              "title": "Mantaray",
+              "text": "Construí un sitio web dinámico con Next.js y animaciones GSAP, mejorando el atractivo visual y la interacción del usuario. Mejoré el rendimiento mediante SSR y división de código, aumentando la velocidad de carga en un 25%.",
+              "tags": ["Next.js", "GSAP", "SSR", "Rendimiento"]
+            },
+            "fr": {
+              "title": "Mantaray",
+              "text": "Création d’un site web dynamique avec Next.js et des animations GSAP, améliorant l’attrait visuel et l’interaction utilisateur. Amélioration des performances grâce au SSR et au découpage du code, augmentant la vitesse de chargement de 25 %.",
+              "tags": ["Next.js", "GSAP", "SSR", "Performance"]
+            },
+            "ko": {
+              "title": "Mantaray",
+              "text": "GSAP 애니메이션을 활용해 시각적 매력과 사용자 상호작용을 향상시킨 동적 Next.js 웹사이트를 구축했습니다. SSR과 코드 분할을 통해 성능을 개선하여 페이지 로드 속도를 25% 증가시켰습니다.",
+              "tags": ["Next.js", "GSAP", "SSR", "성능"]
+            }
+          }
+        },
+
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/tensai-logo.svg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://www.tensaidevs.com/"
+            }
+          ],
+
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "9:16",
+              "images": [
+                "images/pictures/Tensai Devs.png",
+                "images/pictures/Tensai Devs 2.png",
+                "images/pictures/Tensai Devs 3.png",
+                "images/pictures/Tensai Devs 4.png"
+              ]
+            }
+          },
+
+          "locales": {
+            "en": {
+              "title": "Tensai Devs",
+              "text": "Developed an interactive website using Next.js, incorporating GSAP for smooth animations that elevate user engagement and design aesthetics. Leveraged server-side rendering and code-splitting techniques to boost loading efficiency, resulting in a 25% improvement in performance.",
+              "tags": ["Next.js", "GSAP", "Emailjs", "Performance", "SSR"]
+            },
+            "es": {
+              "title": "Tensai Devs",
+              "text": "Desarrollé un sitio web interactivo utilizando Next.js, incorporando animaciones fluidas con GSAP para mejorar la participación del usuario y la estética visual. Implementé renderizado del lado del servidor y división de código para aumentar la eficiencia de carga, logrando una mejora del 25% en el rendimiento.",
+              "tags": ["Next.js", "GSAP", "Emailjs", "Rendimiento", "SSR"]
+            },
+            "fr": {
+              "title": "Tensai Devs",
+              "text": "Développement d’un site web interactif avec Next.js, intégrant des animations fluides via GSAP afin d’améliorer l’engagement utilisateur et l’esthétique du design. Mise en œuvre du rendu côté serveur et du découpage du code pour optimiser la performance, entraînant une amélioration de 25 % des temps de chargement.",
+              "tags": ["Next.js", "GSAP", "Emailjs", "Performance", "SSR"]
+            },
+            "ko": {
+              "title": "Tensai Devs",
+              "text": "Next.js를 사용하여 인터랙티브한 웹사이트를 개발하고, GSAP 애니메이션을 적용해 사용자 참여도와 시각적 완성도를 향상시켰습니다. 서버 사이드 렌더링과 코드 분할을 통해 로딩 효율을 개선하여 성능을 25% 향상시켰습니다.",
+              "tags": ["Next.js", "GSAP", "Emailjs", "성능", "SSR"]
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
