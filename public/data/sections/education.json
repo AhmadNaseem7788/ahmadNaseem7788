@@ -35,9 +35,9 @@
       "items": [
         {
           "icon": {
-            "img": "images/pictures/place-4.png",
-            "fa": "",
-            "faColors": { "bg": null, "fill": null }
+            "img": null,
+            "fa": "fa-solid fa-school",
+            "faColors": { "bg": "#1cc88a", "fill": "#ffffff" }
           },
           "dates": {
             "start": "03/01/2018",
@@ -90,9 +90,9 @@
         },
         {
           "icon": {
-            "img": "images/pictures/place-5.png",
-            "fa": "",
-            "faColors": { "bg": null, "fill": null }
+            "img": null,
+            "fa": "fa-solid fa-graduation-cap",
+            "faColors": { "bg": "#4e73df", "fill": "#ffffff" }
           },
           "dates": {
             "start": "03/01/2021",
@@ -151,9 +151,9 @@
         },
         {
           "icon": {
-            "img": "images/pictures/place-3.png",
-            "fa": "",
-            "faColors": { "bg": null, "fill": null }
+            "img": null,
+            "fa": "fa-solid fa-kit-medical",
+            "faColors": { "bg": "#e74a3b", "fill": "#ffffff" }
           },
           "dates": {
             "start": "08/01/2020",
