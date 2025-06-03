@@ -152,8 +152,8 @@
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-kit-medical",
-            "faColors": { "bg": "#e74a3b", "fill": "#ffffff" }
+            "fa": "fa-solid fa-hand-holding-medical",
+            "faColors": { "bg": "#c8102e", "fill": "#ffffff" }
           },
           "dates": {
             "start": "08/01/2020",
@@ -162,7 +162,7 @@
           "locales": {
             "en": {
               "title": "**First Aid Diploma**",
-              "info": "Certified by [Institute Name]",
+              "info": "Certified by Red Cresent Institute",
               "text": "Completed a First Aid Diploma, acquiring essential skills in emergency response, CPR, wound care, and basic life support techniques. Gained hands-on training in providing immediate medical assistance in various emergency situations.",
               "tags": [
                 "CPR",
