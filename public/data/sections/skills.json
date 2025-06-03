@@ -247,16 +247,6 @@
         {
           "icon": {
             "img": null,
-            "fa": "fa-brands fa-js",
-            "faColors": { "bg": "#007bff", "fill": "#fff" }
-          },
-          "value": 80,
-          "dates": { "start": "04/01/2022" },
-          "locales": { "en": { "title": "jQuery", "info": null } }
-        },
-        {
-          "icon": {
-            "img": null,
             "fa": "fa-brands fa-bootstrap",
             "faColors": { "bg": "#7952B3", "fill": "#EEE" }
           },

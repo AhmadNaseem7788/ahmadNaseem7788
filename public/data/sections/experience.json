@@ -91,7 +91,7 @@
             "en": {
               "title": "**Full-Stack** Engineer",
               "info": "Islamic Saving Center (ISC)",
-              "text": "Worked on enhancing the ISC website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
+              "text": "Developed a complete bank management system for ISC, handling both frontend and backend development. Designed and implemented core banking features, ensuring secure, scalable, and user-friendly functionality across the entire platform.",
               "tags": [
                 "TypeScript",
                 "React.js",
@@ -105,19 +105,19 @@
             "es": {
               "title": "Ingeniero **Full-Stack**",
               "info": "ISC",
-              "text": "Participé en la mejora del sitio web de ISC al implementar nuevas funcionalidades y optimizar la experiencia del usuario, utilizando tecnologías de frontend y backend para asegurar un funcionamiento sin problemas.",
+              "text": "Desarrollé un sistema completo de gestión bancaria para ISC, encargándome del desarrollo tanto del frontend como del backend. Diseñé e implementé funciones bancarias clave, asegurando una funcionalidad segura, escalable y fácil de usar en toda la plataforma.",
               "tags": null
             },
             "fr": {
               "title": "Ingénieur **Full-Stack**",
               "info": "ISC",
-              "text": "J'ai contribué à l'amélioration du site Web de ISC en ajoutant de nouvelles fonctionnalités et en optimisant l'expérience utilisateur, en utilisant des technologies frontend et backend pour garantir un fonctionnement fluide.",
+              "text": "Développement d’un système complet de gestion bancaire pour ISC, en prenant en charge le développement frontend et backend. Conception et mise en œuvre des fonctionnalités bancaires essentielles, garantissant une plateforme sécurisée, évolutive et conviviale.",
               "tags": null
             },
             "ko": {
               "title": "**풀스택** 엔지니어",
               "info": "코세라",
-              "text": "ISC 웹사이트를 개선하기 위해 새로운 기능을 추가하고 사용자 경험을 최적화했습니다. 원활한 기능을 보장하기 위해 프론트엔드와 백엔드 기술을 모두 활용했습니다.",
+              "text": "ISC를 위해 완전한 은행 관리 시스템을 개발하였으며, 프론트엔드와 백엔드 개발을 모두 담당했습니다. 핵심 은행 기능을 설계하고 구현하여 플랫폼 전반에 걸쳐 안전하고 확장 가능하며 사용자 친화적인 기능을 보장했습니다.",
               "tags": null
             }
           }
